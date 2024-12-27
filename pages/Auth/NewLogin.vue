@@ -1,0 +1,64 @@
+<template>
+	<div class="page-auth">
+		<img class="absolute top-[28px] left-[40px] w-[178px] h-[84px]" src="@/assets/images/login-logo.png" />
+    <div class="page-box absolute top-[243px] right-[391px]">
+			<NewAuthForm :type="type" use-only-router />
+		</div>
+
+		<!-- <div class="flex wrapper justify-center" v-if="!isLogged">
+			<div class="image-box basis-2/3" v-if="align === 'right'"></div>
+			<div class="form-box basis-1/3 flex items-center justify-center" :class="{ centered: align === 'center' }">
+				<NewAuthForm :type="type" use-only-router />
+			</div>
+			<div class="image-box basis-2/3" v-if="align === 'left'"></div>
+		</div> -->
+	</div>
+</template>
+
+<script lang="ts" setup>
+import NewAuthForm from "@/components/auth/NewAuthForm.vue"
+import Settings, { type Align } from "@/components/auth/Settings.vue"
+import { ref, computed, onBeforeMount, toRefs } from "vue"
+import { useRoute } from "vue-router"
+import { useAuthStore } from "@/stores/auth"
+import type { FormType } from "@/components/auth/types.d"
+import { Layout } from "@/types/theme.d"
+
+definePageMeta({
+	name: "Login",
+	alias: "/login",
+	title: "Login",
+	forceLayout: Layout.Blank,
+	checkAuth: true,
+	skipPin: true
+})
+
+const props = defineProps<{
+	formType?: FormType
+}>()
+const { formType } = toRefs(props)
+
+const route = useRoute()
+const align = ref<Align>("left")
+const activeColor = ref("")
+const type = ref<FormType | undefined>(formType.value || undefined)
+const authStore = useAuthStore()
+const isLogged = computed(() => authStore.isLogged)
+
+onBeforeMount(() => {
+	if (route.query.step) {
+		const step = route.query.step as FormType
+		type.value = step
+	}
+})
+</script>
+
+<style lang="scss" scoped>
+@import "./login.scss";
+
+.page-auth {
+	position: relative;
+  background: url('@/assets/images/loginbg.png') center center no-repeat;
+  background-size: cover;
+}
+</style>

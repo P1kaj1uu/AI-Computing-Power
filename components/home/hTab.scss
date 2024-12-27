@@ -1,0 +1,135 @@
+.home-tab {
+	@media (max-width: 1400px) {
+		.tab-list {
+      .tab-item {
+        width: 260px;
+      }
+    }
+	}
+  @media (max-width: 1200px) {
+    .home-tab-title {
+      font-size: 50px;
+    }
+    .home-tab-des {
+      font-size: 21px;
+    }
+		.tab-list {
+      .tab-item {
+        padding-left: 15px;
+        width: 230px;
+      }
+    }
+	}
+  @media (max-width: 1000px) {
+		.home-tab-title {
+      left: 285px;
+      font-size: 44px;
+    }
+    .home-tab-des {
+      left: 285px;
+      font-size: 19px;
+    }
+    .tab-btn {
+      left: 285px;
+      .tab-btn-1, .tab-btn-2 {
+        width: 130px;
+        font-size: 15px;
+      }
+    }
+		.tab-list {
+      .tab-item {
+        padding-left: 8px;
+        width: 190px;
+        margin-right: 10px;
+        .tab-name {
+          font-size: 15px;
+        }
+        .tab-des {
+          font-size: 14px;
+        }
+      }
+    }
+	}
+  @media (max-width: 900px) {
+    .home-tab-title {
+      left: 270px;
+      font-size: 42px;
+    }
+    .home-tab-des {
+      left: 270px;
+      font-size: 18px;
+    }
+    .tab-btn {
+      left: 270px;
+    }
+		.tab-list {
+      .tab-item {
+        .tab-item-img {
+          font-size: 45px !important;
+        }
+        margin-right: 10px;
+        padding-left: 5px;
+        width: 160px;
+      }
+    }
+	}
+  @media (max-width: 700px) {
+		.home-tab-title {
+      left: 150px;
+      font-size: 38px;
+    }
+    .home-tab-des {
+      left: 150px;
+      font-size: 16px;
+    }
+    .tab-btn {
+      left: 150px;
+      .tab-btn-1, .tab-btn-2 {
+        width: 120px;
+        font-size: 14px;
+      }
+    }
+		.tab-list {
+      .tab-item {
+        padding: 10px;
+        width: 125px;
+        .tab-item-img {
+          margin-right: 5px;
+        }
+        .tab-name {
+          white-space: nowrap;
+          font-size: 13px;
+        }
+        .tab-des {
+          font-size: 12px;
+          word-break: break-all;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          line-clamp: 2;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+      }
+    }
+	}
+  @media (max-width: 550px) {
+    .home-tab-title {
+      left: 140px;
+    }
+    .home-tab-des {
+      left: 140px;
+    }
+    .tab-btn {
+      left: 140px;
+    }
+    .tab-list {
+      .tab-item {
+        .tab-item-img {
+          font-size: 35px !important;
+        }
+        width: 110px;
+      }
+    }
+	}
+}

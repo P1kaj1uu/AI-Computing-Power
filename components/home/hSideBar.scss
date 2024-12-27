@@ -1,0 +1,13 @@
+.home-sidebar {
+  @media (max-width: 800px) {
+		top: 450px;
+    right: 10px;
+    .h-side-img {
+      width: 85%;
+    }
+    .side-list {
+      width: 50px;
+      padding-left: 13px;
+    }
+	}
+}

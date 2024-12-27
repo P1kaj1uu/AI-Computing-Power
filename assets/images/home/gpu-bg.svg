@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1330px" viewBox="0 0 1920 1330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径 3</title>
+    <defs>
+        <linearGradient x1="50%" y1="26.0077582%" x2="35.5915828%" y2="73.9922418%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EEF9FE" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="55.835761%" cy="90.7932352%" fx="55.835761%" fy="90.7932352%" r="39.9239416%" gradientTransform="translate(0.558358,0.907932),scale(0.692708,1.000000),rotate(102.181850),scale(1.000000,1.952530),translate(-0.558358,-0.907932)" id="radialGradient-2">
+            <stop stop-color="#69E7DF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#69D6E7" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="67.293238%" cy="90.4517786%" fx="67.293238%" fy="90.4517786%" r="49.9866711%" gradientTransform="translate(0.672932,0.904518),scale(0.692708,1.000000),rotate(63.426391),scale(1.000000,2.327018),translate(-0.672932,-0.904518)" id="radialGradient-3">
+            <stop stop-color="#A1ED94" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="21.6479773%" cy="72.6879308%" fx="21.6479773%" fy="72.6879308%" r="28.7876658%" gradientTransform="translate(0.216480,0.726879),scale(0.692708,1.000000),rotate(119.167128),scale(1.000000,1.222887),translate(-0.216480,-0.726879)" id="radialGradient-4">
+            <stop stop-color="#C0E3F7" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#F5FCFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-5" x="0" y="0" width="1920" height="1330"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(0.000000, -1726.000000)">
+            <g id="路径-3" transform="translate(0.000000, 1726.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="蒙版">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-5"></use>
+                    <use fill="url(#radialGradient-2)" xlink:href="#path-5"></use>
+                    <use fill="url(#radialGradient-3)" xlink:href="#path-5"></use>
+                    <use fill="url(#radialGradient-4)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,121 @@
+.home-rank {
+  @media (max-width: 1900px) {
+		padding-left: 325px;
+    padding-right: 325px;
+	}
+
+  @media (max-width: 1800px) {
+		padding-left: 305px;
+    padding-right: 305px;
+	}
+
+  @media (max-width: 1700px) {
+		padding-left: 285px;
+    padding-right: 285px;
+	}
+
+  @media (max-width: 1600px) {
+		padding-left: 265px;
+    padding-right: 265px;
+	}
+
+  @media (max-width: 1500px) {
+		padding-left: 245px;
+    padding-right: 245px;
+	}
+
+  @media (max-width: 1400px) {
+		padding-left: 225px;
+    padding-right: 225px;
+	}
+
+  @media (max-width: 1300px) {
+		padding-left: 205px;
+    padding-right: 205px;
+	}
+
+  @media (max-width: 1200px) {
+		padding-left: 185px;
+    padding-right: 185px;
+    .rank-title {
+      font-size: 30px;
+    }
+    .rank-list-tl {
+      font-size: 16px;
+    }
+    .rank-list-tr {
+      font-size: 16px;
+    }
+    .rank-th {
+      font-size: 15px;
+    }
+    .rank-process {
+      width: 500px;
+    }
+	}
+
+  @media (max-width: 1100px) {
+    padding-left: 160px;
+    padding-right: 160px;
+    .rank-process {
+      width: 450px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    padding-left: 140px;
+    padding-right: 140px;
+    .rank-title {
+      font-size: 28px;
+    }
+    .rank-list-tl {
+      font-size: 15px;
+    }
+    .rank-list-tr {
+      font-size: 15px;
+    }
+    .rank-th {
+      font-size: 14px;
+    }
+    .rank-process {
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding-left: 120px;
+    padding-right: 120px;
+    .rank-title {
+      font-size: 26px;
+    }
+    .rank-process {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    padding-left: 40px;
+    padding-right: 40px;
+    .rank-title {
+      font-size: 26px;
+    }
+    .rank-process {
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .rank-title {
+      font-size: 24px;
+    }
+    .rank-des {
+      font-size: 12px;
+    }
+    .rank-th {
+      font-size: 13px;
+    }
+    .rank-process {
+      width: 100px;
+    }
+  }
+}

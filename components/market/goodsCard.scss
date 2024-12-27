@@ -1,0 +1,24 @@
+.market-goods-card {
+  @media (max-width: 1000px) {
+    .goods-body {
+      padding-bottom: 20px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .goods-body {
+      flex-direction: column;
+      .extra-distance {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .goods-type {
+      margin-right: 30px;
+      font-size: 16px;
+    }
+  }
+}

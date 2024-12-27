@@ -1,0 +1,27 @@
+.control-example {
+  @media (max-width: 1850px) {
+    .example-line {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    height: auto;
+    .ex-box {
+      display: flex;
+      flex-direction: column;
+      .ex-box-l {
+        width: 100%;
+        .ex-box-item {
+          width: 100%;
+        }
+      }
+      .ex-box-r {
+        width: 100%;
+      }
+      .ex-send {
+        text-align: center;
+      }
+    }
+  }
+}

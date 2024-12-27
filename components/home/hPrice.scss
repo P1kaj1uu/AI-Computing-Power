@@ -1,0 +1,159 @@
+.home-price {
+  @media (max-width: 1900px) {
+		padding-left: 325px;
+    padding-right: 325px;
+    .price-item {
+      width: 380px;
+    }
+	}
+
+  @media (max-width: 1800px) {
+		padding-left: 305px;
+    padding-right: 305px;
+    .price-item {
+      width: 360px;
+    }
+	}
+
+  @media (max-width: 1700px) {
+		padding-left: 285px;
+    padding-right: 285px;
+    .price-item {
+      width: 340px;
+    }
+	}
+
+  @media (max-width: 1600px) {
+		padding-left: 265px;
+    padding-right: 265px;
+    .price-item {
+      width: 320px;
+      padding-left: 20px;
+    }
+	}
+
+  @media (max-width: 1500px) {
+		padding-left: 245px;
+    padding-right: 245px;
+    .price-item {
+      width: 300px;
+      height: 185px;
+    }
+	}
+
+  @media (max-width: 1400px) {
+		padding-left: 225px;
+    padding-right: 225px;
+    .price-item {
+      width: 280px;
+      height: 185px;
+    }
+	}
+
+  @media (max-width: 1300px) {
+		padding-left: 205px;
+    padding-right: 205px;
+    .price-item {
+      width: 260px;
+      height: 185px;
+    }
+	}
+
+  @media (max-width: 1200px) {
+		padding-left: 185px;
+    padding-right: 185px;
+    .price-title {
+      font-size: 30px;
+    }
+    .price-list-tl {
+      font-size: 16px;
+    }
+    .price-list-tr {
+      font-size: 16px;
+    }
+    .price-item {
+      width: 240px;
+      .goods-name {
+        font-size: 16px;
+      }
+      .des {
+        font-size: 13px;
+      }
+    }
+	}
+
+  @media (max-width: 1100px) {
+    padding-left: 160px;
+    padding-right: 160px;
+    .price-item {
+      width: 220px;
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    padding-left: 140px;
+    padding-right: 140px;
+    .price-title {
+      font-size: 28px;
+    }
+    .price-item {
+      width: 205px;
+      padding-left: 12px;
+      .goods-name {
+        font-size: 15px;
+      }
+      .des {
+        font-size: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding-left: 120px;
+    padding-right: 120px;
+    .price-title {
+      font-size: 26px;
+    }
+    .price-item {
+      width: 180px;
+      height: 190px;
+      padding-left: 10px;
+      padding-right: 10px;
+      .goods-name {
+        font-size: 14px;
+      }
+      .des {
+        font-size: 12px;
+      }
+      .price-now {
+        margin-right: 8px;
+        .price-now-1 {
+          font-size: 13px;
+        }
+        .price-now-2 {
+          font-size: 12px;
+        }
+      }
+      .price-item-btn {
+        width: 60px;
+        height: 20px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: 600px) {
+    .price-title {
+      font-size: 24px;
+    }
+    .price-des {
+      font-size: 12px;
+    }
+  }
+}

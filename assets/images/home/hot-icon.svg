@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="18px" viewBox="0 0 36 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>图片/hot</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="算力市场-算力租用" transform="translate(-577.000000, -754.000000)">
+            <g id="筛选条件" transform="translate(360.000000, 746.000000)">
+                <g id="编组-3" transform="translate(58.000000, 8.000000)">
+                    <g id="图片/hot" transform="translate(159.000000, 0.000000)">
+                        <path d="M4,0 L32,0 C34.209139,-4.05812251e-16 36,1.790861 36,4 L36,14 C36,16.209139 34.209139,18 32,18 L0,18 L0,18 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="矩形" fill="#F88646"></path>
+                        <text id="HOT" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#FFFFFF">
+                            <tspan x="5.33496094" y="11">HOT</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

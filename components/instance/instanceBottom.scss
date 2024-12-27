@@ -1,0 +1,7 @@
+.instance-bottom {
+  @media (max-width: 1300px) {
+    :deep(.n-table) {
+      width: 200px;
+    }
+  }
+}

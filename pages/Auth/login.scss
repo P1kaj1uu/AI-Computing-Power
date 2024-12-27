@@ -1,0 +1,45 @@
+.page-auth {
+	min-height: 100vh;
+	@media (max-width: 1200px) {
+		.page-box {
+			top: 60%;
+      right: 300px;
+      transform: translateY(-50%);
+		}
+	}
+  @media (max-width: 1000px) {
+		.page-box {
+			top: 60%;
+      right: 200px;
+      transform: translateY(-50%);
+		}
+	}
+  @media (max-width: 800px) {
+		.page-box {
+			top: 60%;
+      right: 150px;
+      transform: translateY(-50%);
+		}
+	}
+  @media (max-width: 700px) {
+		.page-box {
+			top: 60%;
+      right: 100px;
+      transform: translateY(-50%);
+		}
+	}
+  @media (max-width: 600px) {
+		.page-box {
+			top: 60%;
+      right: 70px;
+      transform: translateY(-50%);
+		}
+	}
+  @media (max-width: 500px) {
+		.page-box {
+			top: 60%;
+      right: 30px;
+      transform: translateY(-50%);
+		}
+	}
+}
